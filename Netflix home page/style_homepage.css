@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    background: #000;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.Home {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.background
+{
+    
+margin-left: 1%;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.navigation {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflixlogo {
+    width: 200px;
+}
+
+.netflixlogo img {
+    max-width: 160%;
+}
+
+.signin {
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    background: red;
+    max-height: max-content;
+    padding: 10px 16px;
+    border-radius: 0.2em;
+    font-size: 22px;
+    align-items: center;
+    font-weight:400;
+}
+
+.main2{
+    height: 80%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+
+h1{
+   font-size: 5rem;
+   text-align: center; 
+}
+
+h2{
+    margin: 1rem 0 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+h3{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+input{
+    background: black;
+    border: solid grey 2px;
+    color: white;
+    padding: 30px;
+    width: 600px;
+    font-size: 30px;
+    border-radius: 3%;
+    outline: none;
+    opacity: 0.7;
+}
+button{
+    margin-top: 0;
+    margin-left: 0.5rem;
+    border-radius: 4%;
+    background: red;
+    border: solid red;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
